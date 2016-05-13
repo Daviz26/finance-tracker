@@ -9,6 +9,7 @@ gem 'devise'
 
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'stock_quote'
 
 # User Password
 gem 'bcrypt', '~> 3.1.7'
