@@ -6,10 +6,16 @@ gem 'rails', '4.2.5'
 
 # Authentication system - Devise gem 
 gem 'devise'
-
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'stock_quote'
+gem 'stripe'
+# Image uploader gem
+gem 'carrierwave'
+# Image re-sizing gem
+gem 'mini_magick' 
+# images in production
+gem 'fog'
 
 # User Password
 gem 'bcrypt', '~> 3.1.7'

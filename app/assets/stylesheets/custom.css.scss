@@ -1,31 +1,152 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 .results-block {
     display: inline-block;
 }
 
-.no-padding {
-    padding: 0 !important;
+
+.navbar.navbar-static-top {
+  background: #3B5998;
+  padding-bottom: 5px;
+  color: #fff !important;
 }
 
-.left-padding {
-    padding-left: 15px !important;
+
+.navbar-nav {
+
+    a {
+        color: #fff !important;
+        adding-top: 15px !important;
+    }
+
+    a:hover {
+        color: darken(#fff,15%) !important;
+        adding-top: 15px !important;
+    }
+    
+
 }
+
+.navbar-brand {
+    color: darken(#fff,25%) !important;
+    padding-top: 9px !important;
+    padding-right: 50px !important;
+    font-weight:bold;
+}
+
+
+
+.fa.fa-rocket {
+  background-color: darken(#fff,10%) !important;
+  border: 3px solid #BFBFBF;
+  border-radius: 20px;
+  color: #3B5998;
+  padding: 6px;
+  
+}
+
 
 .user-name {
-    padding-top: 15px;
+  padding-top: 18px !important;
+  text-align: right;
+  font-size: 15px;
 }
+
+
+.login {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.btn-login {
+	background-color:#5B74A8 !important;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	border:2px solid #124d77;
+	display:inline-block;
+	color:#fff !important;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+}
+.btn-login:hover {
+	background-color: darken(#5B74A8,5%) !important;
+}
+.btn-login:active {
+	position:relative;
+	top:1px;
+}
+
 
 .logout {
-    padding-left: 0;
+    list-style: none;
+    padding-top: 11px;
 }
 
-.nav.navbar-right li {
-    .btn {
-        color: #fff !important;
-        margin-top: 5%;
-}
-    
-    .btn-danger:hover {
-        background-color: darken(#d9534f, 20%) !important;
+.btn-logout {
+	
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	border:2px solid #124d77;
+	display:inline-block;
+	color: darken(#fff,15%) !important;
+	background-color: #5B74A8 !important;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:5px !important;
 }
 
+.btn-logout:hover {
+	
+	background-color: lighten(#5B74A8,10%) !important;
+	color: #fff !important;
 }
+
+.btn-logout:active {
+	position:relative;
+	top:1px;
+}
+
+
+.btn-xlarge {
+    font-size: 1.5em;
+    background-color: #3B5998;
+    color: #fff !important;
+}
+
+.btn-xlarge:hover {
+    font-size: 1.5em;
+    background-color: lighten(#3B5998,5%) !important;
+    color: #fff !important;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.jumbotron {
+    background-image: asset-url('flower.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.jumbotron h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.motto {
+    color: #E9E9E9;
+    font-weight: bold;
+}
+

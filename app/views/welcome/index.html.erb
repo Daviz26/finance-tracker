@@ -1,5 +1,18 @@
- <h1>Welcome to the homepage of the finance tracker app</h1>
- 
- <%= link_to "logout", destroy_user_session_path, method: :delete %>
- 
- 
+<% if current_user %>
+<% else %>
+  <div class="center jumbotron">
+    <h2>Welcome to My Book!</h2>
+    <p class="motto">
+      You'll love managing your friends with this application. 
+    </p>
+    </br>
+      <%= link_to "Sign up now", new_user_registration_path, class: "btn btn-primary btn-xlarge" %>
+  </div>
+<% end %>
+
+
+
+
+
+
+    
